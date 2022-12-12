@@ -1,0 +1,7 @@
+use underground;
+
+db.createCollection("passengers");
+db.createCollection("document");
+db.createCollection("ticket");
+db.createCollection("card");
+db.createCollection("card_presentation");

@@ -1,0 +1,27 @@
+#card_presentation
+db.card_presentation.insertMany(
+[
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f147127'), timestamp: ISODate("2022-11-11T10:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f147128'), timestamp: ISODate("2022-11-11T11:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f147129'), timestamp: ISODate("2022-11-11T12:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f14712a'), timestamp: ISODate("2022-11-11T13:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f14712b'), timestamp: ISODate("2022-11-11T14:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f14712c'), timestamp: ISODate("2022-11-11T15:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f14712d'), timestamp: ISODate("2022-11-11T16:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f14712e'), timestamp: ISODate("2022-11-11T17:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f14712f'), timestamp: ISODate("2022-11-11T18:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f147130'), timestamp: ISODate("2022-11-11T19:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" },
+{ ticket_entity_id: ObjectId('6396fcc8fac405497f147131'), timestamp: ISODate("2022-11-11T20:11:18.965Z"),
+ was_success: "true", was_baggage_paid: "false" }
+]
+)

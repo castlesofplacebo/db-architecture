@@ -1,0 +1,38 @@
+#ticket
+db.ticket.insertMany(
+[
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f1470fb') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f1470fc') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f1470fd') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f1470fe') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f1470ff') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f147100') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f147101') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f147102') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f147103') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f147104') },
+{ ticket_type: { type_name: "Monthly Ticket For Students (Metro Only)", is_ticket_type_produced: "true", ticket_time_out: "10", group: "Students" },
+start_date: new Date( "2022-12-11" ), expiration_date: new Date( "2023-01-11" ),
+remaining_resources: { is_active: "true", money: "0", time: "31 day", rides: "100"}, card_id: ObjectId('6396e3ddfac405497f147105') }
+]
+)

@@ -1,0 +1,38 @@
+#card
+db.card.insertMany(
+[
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" },
+{ card_type: { name: "БСК учащегося с фото", price: "250.00", can_return_card: "false", max_count_pass: "1", days_for_return: "0", group: "Students"},
+is_blocked: "false", is_duplicated: "false", current_count_pass: "1", first_bought_date: new Date( "2022-10-01" ),
+first_bought_location: "Lesnaya Station" }
+]
+)

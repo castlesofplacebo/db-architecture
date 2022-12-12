@@ -1,0 +1,21 @@
+db.createView( "card_presentation_with_exp_date", "card_presentation", [
+   {
+      $lookup:
+         {
+            from: "ticket",
+            localField: "ticket_entity_id",
+            foreignField: "_id",
+            as: "ticketDocs"
+         }
+   },
+   {
+      $project:
+         {
+           _id: 0,
+           expiration_date: "$ticketDocs.expiration_date",
+           timestamp: 1,
+           was_success: 1
+         }
+   },
+    {"$unwind": "$expiration_date"}
+] )

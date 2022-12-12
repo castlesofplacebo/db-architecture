@@ -1,0 +1,16 @@
+#document
+db.document.insertMany(
+[
+{ document_type: "passport", document_id: "11 11 111111"},
+{ document_type: "passport", document_id: "11 11 111112"},
+{ document_type: "passport", document_id: "11 11 111113"},
+{ document_type: "passport", document_id: "11 11 111114"},
+{ document_type: "passport", document_id: "11 11 111115"},
+{ document_type: "passport", document_id: "11 11 111116"},
+{ document_type: "passport", document_id: "11 11 111117"},
+{ document_type: "passport", document_id: "11 11 111118"},
+{ document_type: "passport", document_id: "11 11 111119"},
+{ document_type: "passport", document_id: "11 11 111120"},
+{ document_type: "passport", document_id: "11 11 111121"}
+]
+)
